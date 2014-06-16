@@ -5778,6 +5778,19 @@ button.close {
 /* ==========================================================================
    Base
    ========================================================================== */
+body {
+  background: transparent url('../img/prodTemplates/SuccessMatrixSite_Home.jpg') top center no-repeat;
+}
+/* Delete for deploymenyt
+
+a { color: @red; }
+
+h1, h2 { font-family: @font-family-serif;}
+
+h2 { border-bottom: thin solid @red; }
+
+.panel h2 { color: @red; }
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -5785,6 +5798,23 @@ button.close {
   background-color: transparent;
   border-bottom: none;
   text-align: center;
+}
+nav[role=navigation] ul.nav {
+  width: 600px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.nav > li > a:link,
+.nav > li > a:visited {
+  color: black;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background: transparent;
+  color: black;
+  font-weight: bold;
 }
 a.navbar-brand {
   padding: 0;
@@ -5796,16 +5826,41 @@ a.navbar-brand h1 {
   margin: 0;
   padding: 0;
   font-size: 3em;
+  color: #445d7a;
+  text-transform: uppercase;
 }
-/* ==========================================================================
-   Content
-   ========================================================================== */
+h2.tagline {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: none;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
 /* Gallery Shortcode */
 .gallery-row {
   padding: 15px 0;
+}
+article {
+  padding: 15px 10px;
+}
+.panel {
+  border-radius: 0;
+  position: relative;
+}
+.panel:after {
+  content: '';
+  display: block;
+  background: url(../img/lines.svg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+}
+a.moretag {
+  font-style: italic;
 }
 /* ==========================================================================
    Sidebar
@@ -5837,3 +5892,8 @@ figure.alignnone {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}

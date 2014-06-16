@@ -19,5 +19,6 @@
   </div>
 
   <a class="navbar-brand" href="<?php echo home_url(); ?>/"><h1><?php bloginfo('name'); ?></h1></a>
+  <h2 class="tagline"><?php bloginfo('description'); ?></h2>
 
 </header>

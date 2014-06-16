@@ -7,7 +7,7 @@
   <?php get_search_form(); ?>
 <?php endif; ?>
 
-<?php while (have_posts()) : the_post(); ?>
+<?php while (have_posts('psost_per_page=2')) : the_post(); ?>
   <?php get_template_part('templates/content', get_post_format()); ?>
 <?php endwhile; ?>
 
