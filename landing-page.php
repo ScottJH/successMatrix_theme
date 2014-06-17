@@ -50,7 +50,7 @@ Template Name: Home
 		<img src="<?php bloginfo('template_url'); ?>/assets/img/sm-cover.png" class="img-responsive" alt="The Success Matrix cover">
 		<h2>Vision, Process, Output</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora accusamus illum, doloremque sint, unde autem voluptates beatae numquam ipsam quae voluptatum sequi cumque neque, dicta, maxime eveniet iste iusto nostrum.</p>
-		<p><a href="/about">Read More</a></p>
+		<p><a href="/about" class="moretag">Read More</a></p>
 	</article>
 	<article class="panel">
 		<h2>Reviews</h2>

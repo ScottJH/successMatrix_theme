@@ -131,14 +131,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/activation.php" : {
+    "\/assets\/js\/plugins\/bootstrap\/carousel.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/activation.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/carousel-ck.js",
+      "fileType" : 64
     },
     "\/assets\/less\/bootstrap\/carousel.less" : {
       "ieCompatibility" : 1,
@@ -168,16 +170,14 @@
       "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/collapse-ck.js",
       "fileType" : 64
     },
-    "\/assets\/js\/plugins\/bootstrap\/carousel.js" : {
+    "\/lib\/activation.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/carousel-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/lib\/activation.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/less\/bootstrap\/grid.less" : {
       "ieCompatibility" : 1,
@@ -224,44 +224,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/assets\/less\/bootstrap\/popovers.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/popovers.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/popovers.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
-    },
     "\/assets\/less\/bootstrap\/variables.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/variables.less",
       "outputAbbreviatedPath" : "\/assets\/less\/css\/variables.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
-    },
-    "\/assets\/less\/bootstrap\/navbar.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/navbar.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/navbar.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -300,6 +266,40 @@
       "inputAbbreviatedPath" : "\/templates\/content-page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/less\/bootstrap\/navbar.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/navbar.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/navbar.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
+    },
+    "\/assets\/less\/bootstrap\/popovers.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/popovers.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/popovers.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
     },
     "\/assets\/less\/bootstrap\/type.less" : {
       "ieCompatibility" : 1,
@@ -530,23 +530,6 @@
       "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/tab-ck.js",
       "fileType" : 64
     },
-    "\/assets\/less\/bootstrap\/alerts.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/alerts.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/alerts.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
-    },
     "\/templates\/header-top-navbar.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -560,6 +543,32 @@
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/pagination.less",
       "outputAbbreviatedPath" : "\/assets\/less\/css\/pagination.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
+    },
+    "\/about-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/about-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/less\/bootstrap\/alerts.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/alerts.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/alerts.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -725,6 +734,15 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
+    "\/assets\/css\/main.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/main.min.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/img\/gerry.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -735,15 +753,6 @@
       "outputAbbreviatedPath" : "\/assets\/img\/gerry.jpg",
       "initialSize" : 20601,
       "fileType" : 4096
-    },
-    "\/assets\/css\/main.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/main.min.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
     },
     "\/assets\/less\/bootstrap\/wells.less" : {
       "ieCompatibility" : 1,
@@ -811,6 +820,23 @@
       "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/dropdown-ck.js",
       "fileType" : 64
     },
+    "\/assets\/less\/bootstrap\/component-animations.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/component-animations.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/component-animations.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
+    },
     "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -845,23 +871,6 @@
       "inputAbbreviatedPath" : "\/template-custom.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/less\/bootstrap\/component-animations.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/component-animations.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/component-animations.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
     },
     "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home_template.png" : {
       "ignoreWasSetByUser" : 0,
@@ -966,6 +975,15 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
+    "\/templates\/content.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/content.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/less\/bootstrap\/panels.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/panels.less",
@@ -983,14 +1001,25 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/templates\/content.php" : {
+    "\/templates\/content-about.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/content.php",
+      "inputAbbreviatedPath" : "\/templates\/content-about.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home.jpg",
+      "initialSize" : 438398,
+      "fileType" : 4096
     },
     "\/assets\/less\/bootstrap\/forms.less" : {
       "ieCompatibility" : 1,
@@ -1008,17 +1037,6 @@
       "outputStyle" : 0,
       "debugStyle" : 0,
       "strictMath" : 0
-    },
-    "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/prodTemplates\/SuccessMatrixSite_Home.jpg",
-      "initialSize" : 438398,
-      "fileType" : 4096
     },
     "\/lib\/utils.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1052,6 +1070,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/podcast-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/podcast-page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1092,6 +1119,28 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/assets\/img\/temp-bg\/soft_wallpaper_@2X.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/temp-bg\/soft_wallpaper_@2X.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/temp-bg\/soft_wallpaper_@2X.png",
+      "initialSize" : 337617,
+      "fileType" : 8192
+    },
+    "\/assets\/img\/temp-bg\/soft_wallpaper.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/temp-bg\/soft_wallpaper.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/temp-bg\/soft_wallpaper.png",
+      "initialSize" : 230850,
+      "fileType" : 8192
+    },
     "\/templates\/header.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1101,10 +1150,10 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/less\/bootstrap\/bootstrap.less" : {
+    "\/assets\/less\/bootstrap\/normalize.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/bootstrap.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/bootstrap.css",
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/normalize.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/normalize.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1118,10 +1167,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/assets\/less\/bootstrap\/normalize.less" : {
+    "\/assets\/less\/bootstrap\/bootstrap.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/normalize.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/normalize.css",
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/bootstrap.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/bootstrap.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1200,6 +1249,32 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
+    "\/templates\/sidebar.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/sidebar.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/less\/bootstrap\/pager.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/pager.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/pager.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
+    },
     "\/assets\/less\/bootstrap\/jumbotron.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/jumbotron.less",
@@ -1233,32 +1308,6 @@
       "outputStyle" : 0,
       "debugStyle" : 0,
       "strictMath" : 0
-    },
-    "\/assets\/less\/bootstrap\/pager.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/pager.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/pager.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
-    },
-    "\/templates\/sidebar.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/sidebar.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/lib\/comments.php" : {
       "ignoreWasSetByUser" : 0,

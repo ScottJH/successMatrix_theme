@@ -357,7 +357,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5779,18 +5779,25 @@ button.close {
    Base
    ========================================================================== */
 body {
-  background: transparent url('../img/prodTemplates/SuccessMatrixSite_Home.jpg') top center no-repeat;
+  background: url('../img/temp-bg/soft_wallpaper.png');
 }
-/* Delete for deploymenyt
-
-a { color: @red; }
-
-h1, h2 { font-family: @font-family-serif;}
-
-h2 { border-bottom: thin solid @red; }
-
-.panel h2 { color: @red; }
-
+a {
+  color: #cc0000;
+}
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+.panel h1,
+h2 {
+  border-bottom: thin solid #cc0000;
+}
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -5800,10 +5807,13 @@ h2 { border-bottom: thin solid @red; }
   text-align: center;
 }
 nav[role=navigation] ul.nav {
-  width: 600px;
+  width: 550px;
   margin: 0 auto;
   text-transform: uppercase;
   font-size: 1em;
+}
+nav[role=navigation] ul.nav li a {
+  padding: 15px 5px 10px 5px;
 }
 .nav > li > a:link,
 .nav > li > a:visited {
@@ -5818,14 +5828,14 @@ nav[role=navigation] ul.nav {
 }
 a.navbar-brand {
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   width: 100%;
   display: block;
 }
 a.navbar-brand h1 {
   margin: 0;
   padding: 0;
-  font-size: 3em;
+  font-size: 4em;
   color: #445d7a;
   text-transform: uppercase;
 }
@@ -5833,6 +5843,7 @@ h2.tagline {
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-bottom: none;
+  padding: 10px;
 }
 /* ==========================================================================
    Primary Content
@@ -5842,11 +5853,22 @@ h2.tagline {
   padding: 15px 0;
 }
 article {
-  padding: 15px 10px;
+  padding: 5px 10px;
+}
+article h2,
+article h3 {
+  margin-top: 5px;
 }
 .panel {
   border-radius: 0;
   position: relative;
+}
+.panel h1 {
+  font-size: 30px;
+  margin-top: 5px;
+}
+.panel h2 {
+  color: #cc0000;
 }
 .panel:after {
   content: '';
@@ -5859,8 +5881,16 @@ article {
   bottom: -10px;
   z-index: -1;
 }
-a.moretag {
+a.moretag:link,
+a.moretag:visited {
+  color: #cc0000;
   font-style: italic;
+}
+aside.bio {
+  padding: 0 30px;
+}
+aside.bio h2 {
+  color: #cc0000;
 }
 /* ==========================================================================
    Sidebar
@@ -5871,6 +5901,14 @@ a.moretag {
 /* ==========================================================================
    Footer
    ========================================================================== */
+.content-info {
+  background: #445d7a;
+  color: white;
+}
+.content-info h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom-color: white;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
@@ -5894,6 +5932,8 @@ figure.alignnone {
    ========================================================================== */
 @media (min-width: 1200px) {
   .container {
-    width: 960px;
+    width: 1020px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
