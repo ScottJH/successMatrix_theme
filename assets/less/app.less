@@ -70,9 +70,11 @@ font-weight: bold;
 
 a.navbar-brand {
    padding: 0;
-   margin-bottom: 25px;
    width: 100%;
+   margin-bottom: 10px;
    display: block;
+   float: none;
+   height: auto;
    h1 {
       margin: 0;
       padding: 0; 
@@ -139,6 +141,22 @@ aside.bio {
    }
 }
 
+blockquote {
+   margin: 10px;
+   text-align: center;
+   border: none;
+   font-family: @font-family-serif;
+   position: relative;
+}
+
+blockquote footer { font-family: @font-family-sans-serif; color: black;}
+
+blockquote footer:before {display: none;}
+
+.book-cover-image {
+   text-align: center;
+   padding: 20px;
+}
 
 /* ==========================================================================
    Sidebar

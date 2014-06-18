@@ -13,12 +13,36 @@ Template Name: Home
 		<?php
 
 
-		$args = array( 'posts_per_page' => 1,  'category' => 3 );
+		$args = array( 
+			'posts_per_page' => 1,
+			'post__in'  => get_option( 'sticky_posts' ),  
+			'category' => 3 ); //Podcast
 
 		$myposts = get_posts( $args );
 		foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 			<h3><a href='<?php the_permalink(); ?>'><?php the_title(); ?></a></h3>
-			<?php the_content(); ?>
+			<?php 
+				$audio = get_children( 
+				array(
+				'post_parent' => $post->ID, 
+				'post_status' => 'inherit', 
+				'post_type' => 'attachment', 
+				'post_mime_type' => 'audio' ) 
+				); ?>
+				<?php if ( empty( $audio ) ) : ?>
+			<?php else : ?>
+		    <div>
+		            <?php 
+				$attr = array(
+					'src'      => wp_get_attachment_url( $attachment_id, 'full' ),
+					'loop'     => '',
+					'autoplay' => '',
+					'preload' => 'none'
+				);								
+				echo wp_audio_shortcode( $attr ); ?>
+		    </div>
+		<?php endif; ?>
+			<?php the_excerpt(); ?>
 		<?php endforeach; 
 		wp_reset_postdata();?>
 	
@@ -56,8 +80,19 @@ Template Name: Home
 		<h2>Reviews</h2>
 		<h3>What Others are Saying</h3>
 		<blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas autem possimus blanditiis mollitia veniam, vitae iure, exercitationem eaque dolore ducimus architecto aperiam quos esse quasi? Quod consequuntur vitae sint! Enim!</p>
-			<footer>Someone Famous</footer>
+				<?php
+
+				$args = array( 
+					'posts_per_page' => 1, 
+					'post_type' => 'review'
+					);
+
+				$myposts = get_posts( $args );
+				foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+					<p><?php the_content(); ?></p>
+					<footer><?php the_field('quote_attribute'); ?></footer>
+				<?php endforeach; 
+				wp_reset_postdata();?>
 		</blockquote>
 	</article>
 </div>

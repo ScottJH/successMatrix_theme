@@ -63,7 +63,8 @@ function roots_display_sidebar() {
      */
     array(
       'template-custom.php',
-      'about-page.php'
+      'about-page.php',
+      'writings-page.php'
     )
   );
 
