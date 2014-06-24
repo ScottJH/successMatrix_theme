@@ -76,7 +76,7 @@ $myposts = get_posts( $args );
 				);								
 				echo wp_audio_shortcode( $attr ); ?>
 		<?php endif; ?>
-	<span><strong>Guests:</strong><!--custom field--></span>
+   	<?php get_template_part('templates/entry-meta'); ?>
 	<?php the_excerpt(); ?>
 	<hr>
 	<!-- Social Stuff -->

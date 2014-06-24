@@ -1,10 +1,3 @@
-<?php
-/*
-Template Name: Home
-*/
-?>
-
-<?php get_template_part('templates/page'); ?>
 <div class="row">
 
 <div class="col-md-4">
@@ -47,7 +40,7 @@ Template Name: Home
 		wp_reset_postdata();?>
 	
 		<p>
-			<a href="#">More episodes</a>
+			<a href="/podcast/">More episodes</a>
 		</p>
 	</article>
 	<article class="feature-post">

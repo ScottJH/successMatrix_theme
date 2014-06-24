@@ -5807,7 +5807,6 @@ h3 {
   text-align: center;
 }
 nav[role=navigation] ul.nav {
-  width: 550px;
   margin: 0 auto;
   text-transform: uppercase;
   font-size: 1em;
@@ -5824,7 +5823,7 @@ nav[role=navigation] ul.nav li a {
   text-decoration: none;
   background: transparent;
   color: black;
-  font-weight: bold;
+  color: #cc0000;
 }
 a.navbar-brand {
   padding: 0;
@@ -5912,9 +5911,27 @@ blockquote footer:before {
   text-align: center;
   padding: 20px;
 }
+.pod-guest {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 /* ==========================================================================
    Sidebar
    ========================================================================== */
+.sidebar ul.pod-list,
+.sidebar ul.guest-list {
+  padding: 0;
+}
+.sidebar ul.pod-list li,
+.sidebar ul.guest-list li {
+  list-style: none;
+}
+.sidebar ul.guest-list li {
+  padding: 5px;
+}
+.sidebar ul.guest-list li img {
+  margin-right: 10px;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -5950,6 +5967,11 @@ figure.alignnone {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media (min-width: 992px) {
+  nav[role=navigation] ul.nav {
+    width: 550px;
+  }
+}
 @media (min-width: 1200px) {
   .container {
     width: 1020px;

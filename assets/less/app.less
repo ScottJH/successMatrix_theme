@@ -46,7 +46,6 @@ h3 {
 }
 
 nav[role=navigation] ul.nav {
-   width: 550px;
    margin: 0 auto;
    text-transform: uppercase;
    font-size: 1em;
@@ -65,7 +64,7 @@ nav[role=navigation] ul.nav {
 text-decoration: none;
 background: transparent;
 color: black;
-font-weight: bold;
+color: @red;
 }
 
 a.navbar-brand {
@@ -158,13 +157,27 @@ blockquote footer:before {display: none;}
    padding: 20px;
 }
 
+.pod-guest { text-transform: uppercase; font-weight: bold;}
+
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 
-.sidebar { }
-
-
+.sidebar { 
+   ul.pod-list, ul.guest-list {
+      padding: 0;
+      li {
+         list-style: none;
+      }
+   }
+   ul.guest-list li {
+      padding: 5px;
+      img {
+         margin-right: 10px;
+      }
+   }
+}
 
 /* ==========================================================================
    Posts
@@ -192,7 +205,6 @@ blockquote footer:before {display: none;}
 }
 
 
-
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
@@ -211,9 +223,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (min-width: @screen-sm-min) { }
 
-@media (min-width: @screen-md-min) { }
+@media (min-width: @screen-md-min) { 
+   nav[role=navigation] ul.nav {
+   width: 550px;
+   }
+}
 
 @media (min-width: @screen-lg-min) {
+
+
    .container {
    width: 1020px;
    padding-left: 30px;
